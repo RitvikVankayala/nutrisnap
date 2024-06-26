@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Download Procedure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Download or clone the folder into the local storage and name the folder eg.Project the Project contains three folder again in it. 
+1) Flask_server (The folder with name Flask_server in the downloaded folder)
+2) Testing (All the testing images from the downloaded folder)
+3) NutriSnap (all the code files except Flask_server and testing)
 
-## Available Scripts
+# Requirements
 
-In the project directory, you can run:
+1) Nodejs
+2) Python
 
-### `npm start`
+# Execution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Root Directory => Project
+Project => Flask_server , Testing , NutriSnap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1) Move to NutriSnap and run npm install.
+2) And after all neccessary packages are install run npm start.
+3) Then move to flask_server and download required dependencies and run python app.py to start the server. 
 
-### `npm test`
+# Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) React js
+2) Flask
+3) Hugging Face model API
+4) Open AI chat API ( which is currently converted to paid version)
+5) Api ninjas nutrition API
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1) Detects the food material upon uploading the Picture.
+2) Finds the allergic and nutrition contents of the food material uploaded.
+3) Can Chat with open AI chat assisstant with role as nutritional advisor. (currently paid)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
